@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StackWebView.MainPage">
+
+      
+
+            <!--<AbsoluteLayout
+            Padding="30,0"
+            VerticalOptions="Center"
+                BackgroundColor="Yellow">
+
+                <WebView Source="https://docs.microsoft.com/dotnet/maui" WidthRequest="100" HeightRequest="100"/>
+
+            </AbsoluteLayout>-->
+
+            <StackLayout
+            Padding="30,0"
+            VerticalOptions="Center"
+                BackgroundColor="Aqua">
+        <Label
+                    Grid.Row="0"
+                Text="I'm Stack Layout"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+        <WebView Source="https://docs.microsoft.com/dotnet/maui" />
+
+            </StackLayout> 
+
+    <!--<Grid
+              RowDefinitions="40,*"
+            VerticalOptions="FillAndExpand"
+        HorizontalOptions="FillAndExpand">
+
+        <Label
+                    Grid.Row="0"
+                Text="I'm Grid"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+        <WebView Grid.Row="1" Source="https://docs.microsoft.com/dotnet/maui" />
+
+    </Grid>-->
+
+
+</ContentPage>
